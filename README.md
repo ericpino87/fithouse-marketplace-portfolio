@@ -4,7 +4,7 @@ A responsive fitness equipment storefront built with **Node.js, Express, EJS and
 
 **[Explore the live storefront](https://ericpino87.github.io/fithouse-marketplace-portfolio/)** · **[View architecture and case study](docs/CASE_STUDY_ES.md)**
 
-![FitHouse storefront](docs/preview.png)
+![FitHouse](docs/FitHouse_preview_nuevo.png)
 
 ## Features
 
