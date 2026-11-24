@@ -1,0 +1,6 @@
+<%- include('partials/head',{title:'Ingresar'}) %>
+<main class="container auth-wrap"><section class="auth-card"><p class="eyebrow dark">TU CUENTA DEMO</p><h1>Iniciar sesión</h1><p>Usá una cuenta ficticia creada en esta instalación local.</p>
+<% if(error){ %><p class="form-error" role="alert"><%= error %></p><% } %>
+<form method="post" action="/usuario/login"><input type="hidden" name="_csrf" value="<%= csrf %>"><label for="email">Correo electrónico</label><input type="email" id="email" name="email" required autocomplete="email"><label for="password">Contraseña</label><input type="password" id="password" name="password" required autocomplete="current-password"><button class="button button-primary full" type="submit">Ingresar</button></form>
+<p class="form-bottom">¿Todavía no tenés cuenta? <a href="/usuario/register">Registrate</a></p></section></main>
+<%- include('partials/footer') %>

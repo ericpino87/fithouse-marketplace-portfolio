@@ -1,0 +1,8 @@
+<%- include('partials/head',{title:product.name}) %>
+<main class="container section page-top"><p class="breadcrumbs"><a href="/productos">Productos</a> / <%= product.category %></p>
+<div class="detail-grid"><div class="detail-cover"><span class="detail-emoji"><%= product.emoji %></span><span class="detail-badge">EDICIÓN DEMO</span></div>
+<div class="detail-info"><div class="eyebrow dark"><%= product.category %></div><h1><%= product.name %></h1><p class="detail-description"><%= product.description %></p><div class="detail-price"><%= peso(product.price) %></div>
+<p class="availability"><span class="dot"></span> <%= product.stock %> unidades de ejemplo</p>
+<form method="post" action="/carrito/agregar" class="purchase-form"><input type="hidden" name="_csrf" value="<%= csrf %>"><input type="hidden" name="id" value="<%= product.id %>"><label for="quantity">Cantidad</label><select name="quantity" id="quantity"><% for(let n=1;n<=Math.min(10,product.stock);n++){ %><option value="<%= n %>"><%= n %></option><% } %></select><button class="button button-primary" type="submit">Agregar al carrito ↗</button></form>
+<p class="fine-print">Este carrito es una simulación educativa. No hay pagos ni envíos reales.</p></div></div>
+</main><%- include('partials/footer') %>

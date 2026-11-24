@@ -1,0 +1,15 @@
+<%- include('partials/head',{title:'Entrená a tu manera'}) %>
+<main>
+<section class="hero"><div class="container hero-grid">
+ <div class="hero-copy"><div class="eyebrow">FITNESS & WELLNESS · CURSO FULL STACK</div>
+  <h1>Equípate para <em>llegar más lejos.</em></h1>
+  <p>Una experiencia de tienda de entrenamiento creada como proyecto académico. Explorá productos, sumalos al carrito y conocé su arquitectura.</p>
+  <div class="hero-buttons"><a class="button button-primary" href="/productos">Explorar productos <span>↗</span></a><a class="button button-ghost" href="/nosotros">Sobre este proyecto</a></div>
+  <div class="hero-note"><span class="dot"></span> DEMOSTRACIÓN · SIN COMPRAS REALES</div>
+ </div><div class="hero-art" aria-hidden="true"><div class="art-ring ring-one"></div><div class="art-ring ring-two"></div><div class="art-emoji">🏋️</div><span class="art-tag">MOVE. LIFT. REPEAT.</span></div>
+</div></section>
+<section class="container section"><div class="section-heading"><div><p class="eyebrow dark">DESCUBRÍ FITHOUSE</p><h2>Productos destacados</h2></div><a class="inline-link" href="/productos">Ver todo el catálogo ↗</a></div>
+<div class="product-grid"><% featured.forEach(product=> { %><%- include('partials/card',{product}) %><% }) %></div></section>
+<section class="container features"><div class="feature"><span>01 /</span><strong>Explorá el catálogo</strong><p>Productos ficticios organizados por categoría y precio.</p></div><div class="feature"><span>02 /</span><strong>Armá tu carrito</strong><p>Probá cantidades y totales sin operaciones reales.</p></div><div class="feature"><span>03 /</span><strong>Conocé el código</strong><p>Node.js, Express, EJS y sesiones de usuario.</p></div></section>
+</main>
+<%- include('partials/footer') %>
