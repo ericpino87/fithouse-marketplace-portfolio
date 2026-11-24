@@ -1,0 +1,19 @@
+{
+  "name": "fithouse-marketplace-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Refactored educational fitness e-commerce demo based on a group Full Stack coursework project.",
+  "engines": {"node": ">=20"},
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check src/app.js && node --check src/lib/catalog.js && node --check src/lib/store.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "ejs": "^3.1.9",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
