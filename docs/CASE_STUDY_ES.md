@@ -25,10 +25,5 @@ FitHouse surgió de un desarrollo colaborativo del grupo 13. Sus integrantes fig
 
 Posteriormente se reorganizaron las rutas y vistas, se reemplazaron datos de usuarios, se incorporaron pruebas automatizadas y se preparó la web para GitHub Pages. Estas mejoras son posteriores al desarrollo grupal original; no se deben atribuir indiscriminadamente al equipo.
 
-## Descripción para CV
 
-**FitHouse | Full Stack E-commerce**
 
-Participé en el desarrollo colaborativo de una tienda online de equipamiento fitness utilizando Node.js, Express, EJS, HTML, CSS y JavaScript. El proyecto incluye catálogo de productos, navegación por categorías, carrito y gestión de usuarios en entorno local. El repositorio presenta una versión reorganizada con documentación técnica, pruebas automáticas y un sitio web interactivo.
-
-*Ajustar la descripción de responsabilidades individuales a las tareas efectivamente realizadas.*
