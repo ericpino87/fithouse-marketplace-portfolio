@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="FitHouse: demostración educativa de e-commerce full stack con Node.js y Express.">
+  <title><%= title %> · FitHouse</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/" aria-label="FitHouse inicio"><span class="brand-mark">F</span><span>FIT<span class="brand-accent">HOUSE</span></span></a>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="/" class="<%= path==='/'?'active':'' %>">Inicio</a>
+        <a href="/productos" class="<%= path.startsWith('/productos')?'active':'' %>">Productos</a>
+        <a href="/nosotros" class="<%= path==='/nosotros'?'active':'' %>">Proyecto</a>
+        <a href="/carrito" class="cart-link">Carrito <span class="cart-count"><%= cartCount %></span></a>
+      </nav>
+      <div class="user-actions">
+        <% if(user){ %><a class="user-name" href="/admin">Hola, <%= user.name %></a>
+          <form method="post" action="/usuario/logout"><input type="hidden" name="_csrf" value="<%= csrf %>"><button class="text-button" type="submit">Salir</button></form>
+        <% } else { %><a href="/usuario/login" class="text-button">Ingresar</a><a class="button button-sm" href="/usuario/register">Crear cuenta</a><% } %>
+      </div>
+    </div>
+  </header>

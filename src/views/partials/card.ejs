@@ -1,0 +1,10 @@
+<article class="product-card">
+  <a class="product-cover" href="/productos/<%= product.id %>" aria-label="Ver <%= product.name %>">
+    <span class="cover-glow"></span><span class="product-emoji"><%= product.emoji %></span>
+    <span class="category-pill"><%= product.category %></span>
+  </a>
+  <div class="product-body"><p class="product-meta">En stock · <%= product.stock %> disponibles</p>
+    <h3><a href="/productos/<%= product.id %>"><%= product.name %></a></h3>
+    <div class="product-bottom"><strong><%= peso(product.price) %></strong><a class="arrow-link" href="/productos/<%= product.id %>" aria-label="Ver detalle">↗</a></div>
+  </div>
+</article>
