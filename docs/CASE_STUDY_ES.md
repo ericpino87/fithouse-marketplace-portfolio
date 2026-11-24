@@ -1,27 +1,34 @@
-# FitHouse — Caso de estudio (español)
+# FitHouse | E-commerce de equipamiento fitness
 
-**Tipo:** proyecto académico grupal de un curso Full Stack, recuperado y reorganizado para portfolio.
+**Objetivo:** desarrollar una tienda online con catálogo de productos, búsqueda, filtros y carrito, utilizando tecnologías web Full Stack.
 
-**Problema:** crear una tienda web que permitiera consultar equipamiento fitness, explorar productos y simular un recorrido de compra.
+**Tecnologías:** Node.js, Express, EJS, JavaScript, HTML, CSS, almacenamiento JSON local y GitHub Actions.
 
-**Tecnologías del proyecto reorganizado:** Node.js, Express, EJS, JavaScript, HTML, CSS, almacenamiento JSON local y pruebas con Node.js.
+## Características
 
-**Entregables actuales:** catálogo y filtros, detalle de productos, carrito de prueba, registro e inicio de sesión locales, administración básica de productos y demo estática interactiva para GitHub Pages.
+- Catálogo de productos con filtros por categoría y texto.
+- Vista de detalle de cada producto.
+- Carrito con cálculo de unidades y totales.
+- Registro e inicio de sesión en la aplicación Express ejecutada localmente.
+- Administración básica de productos desde la aplicación local.
+- Sitio web público navegable alojado con GitHub Pages.
 
-**Importante:** la demo web de GitHub Pages no reproduce el servidor ni implementa autenticación. El backend Express se ejecuta localmente siguiendo el README. No se realizan ventas ni pagos reales.
+## Arquitectura y alcance
 
-## Trabajo original vs. mejoras posteriores
+La web de GitHub Pages ejecuta HTML, CSS y JavaScript en el navegador. **No ejecuta el servidor Node.js ni la autenticación**. Para acceder a esas funcionalidades hay que iniciar la aplicación Express en una computadora con `npm start`.
 
-El repositorio de origen era un desarrollo académico en equipo. Esta edición de portfolio corrige rutas defectuosas, reemplaza datos de usuarios y productos, organiza los archivos, agrega documentación y pruebas y crea una demo web independiente. Estas mejoras posteriores **no deben presentarse como trabajo completado en el curso original**.
+El catálogo y los precios son ilustrativos. Las compras, los pagos y los envíos no están habilitados. La aplicación Express utiliza almacenamiento JSON local, no una base de datos de producción.
 
-## Crédito y autoría
+## Colaboración y evolución del código
 
-El trabajo original fue realizado por integrantes del grupo 13, identificados en el README principal. Conviene destacar en CV que fue una **experiencia de desarrollo colaborativo**, no apropiarse de la autoría de otros participantes.
+FitHouse surgió de un desarrollo colaborativo del grupo 13. Sus integrantes figuran en el [README principal](../README.md), junto con la referencia al repositorio de origen.
 
-## Presentación breve para CV
+Posteriormente se reorganizaron las rutas y vistas, se reemplazaron datos de usuarios, se incorporaron pruebas automatizadas y se preparó la web para GitHub Pages. Estas mejoras son posteriores al desarrollo grupal original; no se deben atribuir indiscriminadamente al equipo.
 
-**FitHouse | Full Stack E-commerce (proyecto académico grupal)**
+## Descripción para CV
 
-Participé en el desarrollo de un sitio de comercio electrónico de equipamiento fitness como parte de un equipo de formación Full Stack. El proyecto utiliza Node.js, Express, EJS, HTML y CSS, con vistas de productos, registro de usuarios y un recorrido de compra demostrativo. Posteriormente se preparó una versión de portfolio con refactorización, datos ficticios, pruebas automatizadas y una demo interactiva.
+**FitHouse | Full Stack E-commerce**
 
-*Nota: ajustar las responsabilidades individuales a lo efectivamente realizado durante el curso.*
+Participé en el desarrollo colaborativo de una tienda online de equipamiento fitness utilizando Node.js, Express, EJS, HTML, CSS y JavaScript. El proyecto incluye catálogo de productos, navegación por categorías, carrito y gestión de usuarios en entorno local. El repositorio presenta una versión reorganizada con documentación técnica, pruebas automáticas y un sitio web interactivo.
+
+*Ajustar la descripción de responsabilidades individuales a las tareas efectivamente realizadas.*
