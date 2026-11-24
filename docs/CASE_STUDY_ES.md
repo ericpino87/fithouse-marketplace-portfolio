@@ -21,7 +21,7 @@ El catálogo y los precios son ilustrativos. Las compras, los pagos y los envío
 
 ## Colaboración y evolución del código
 
-FitHouse surgió de un desarrollo colaborativo del grupo 13. Sus integrantes figuran en el [README principal](../README.md), junto con la referencia al repositorio de origen.
+FitHouse surgió de un desarrollo colaborativo del grupo 13 de la academia DIGITAL HOUSE. Sus integrantes figuran en el [README principal](../README.md), junto con la referencia al repositorio de origen.
 
 Posteriormente se reorganizaron las rutas y vistas, se reemplazaron datos de usuarios, se incorporaron pruebas automatizadas y se preparó la web para GitHub Pages. Estas mejoras son posteriores al desarrollo grupal original; no se deben atribuir indiscriminadamente al equipo.
 
