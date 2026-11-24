@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Kit de mancuernas hexagonales",
+    "category": "Fuerza",
+    "price": 85000,
+    "description": "Par de mancuernas de entrenamiento para rutinas de fuerza en casa.",
+    "emoji": "🏋️",
+    "stock": 18
+  },
+  {
+    "id": 2,
+    "name": "Colchoneta de entrenamiento",
+    "category": "Accesorios",
+    "price": 19500,
+    "description": "Colchoneta de alta densidad para estiramiento y entrenamiento funcional.",
+    "emoji": "🧘",
+    "stock": 24
+  },
+  {
+    "id": 3,
+    "name": "Kettlebell 12 kg",
+    "category": "Fuerza",
+    "price": 48500,
+    "description": "Pesa rusa para ejercicios de fuerza y resistencia.",
+    "emoji": "💪",
+    "stock": 11
+  },
+  {
+    "id": 4,
+    "name": "Banco regulable",
+    "category": "Equipamiento",
+    "price": 189000,
+    "description": "Banco versátil para entrenamiento de musculación.",
+    "emoji": "🏋️",
+    "stock": 6
+  },
+  {
+    "id": 5,
+    "name": "Soga de saltar",
+    "category": "Cardio",
+    "price": 12800,
+    "description": "Soga liviana ideal para entrada en calor y entrenamiento aeróbico.",
+    "emoji": "⚡",
+    "stock": 40
+  },
+  {
+    "id": 6,
+    "name": "Set de bandas elásticas",
+    "category": "Accesorios",
+    "price": 25900,
+    "description": "Bandas de resistencia para movilidad y activación muscular.",
+    "emoji": "🎯",
+    "stock": 22
+  },
+  {
+    "id": 7,
+    "name": "Pelota medicinal 5 kg",
+    "category": "Fuerza",
+    "price": 41000,
+    "description": "Pelota de peso para ejercicios funcionales y de estabilidad.",
+    "emoji": "🏐",
+    "stock": 9
+  },
+  {
+    "id": 8,
+    "name": "Rodillo de movilidad",
+    "category": "Accesorios",
+    "price": 21900,
+    "description": "Rodillo de espuma para recuperación y movilidad.",
+    "emoji": "🧘",
+    "stock": 12
+  }
+]
